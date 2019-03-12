@@ -7,7 +7,6 @@ body {
 
 h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
-	text-transform: uppercase;
 }
 
 .titulo-principal {
@@ -17,6 +16,7 @@ h1, h2 {
 	padding: 25px;
 	border-bottom: 10px solid black;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 p {
@@ -41,6 +41,7 @@ p {
 .rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
+	clear: both;
 }
 
 main a {
@@ -62,10 +63,6 @@ main a {
 	padding: 30px 0;
 }
 
-nav a {
-	text-transform: lowercase;
-}
-
 .navegacao-site h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
@@ -81,29 +78,11 @@ em {
 
 .subtitulo-texto {
 	font-size: 30px;
+	clear: both;
 }
 
-.icones-redes-sociais li{
+.icones-redes-sociais li {
 	display: inline-block;
-}
-
-.icones-redes-sociais a {
-	width: 40px;
-	height: 40px;;
-	display: inline-block;
-	text-indent: -9999px;
-}
-
-.github{
- 	background-image: url(github.png);
-}
-
-.twitter{
-	background-image: url(twitter.png);
-}
-
-.linkedin{
-	background-image: url(linkedin.png);
 }
 
 .artigo {
@@ -119,4 +98,53 @@ em {
 	font-size: 24px;
 	text-align: center;
 	background-color: #E6E7E8;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+cite {
+	font-style: italic;
+	float: right;
 }
