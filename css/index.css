@@ -105,26 +105,37 @@ main {
 .eficiencia {
     top: 20%;
     left: 75%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
 }
 .boas-praticas {
     top: 70%;
     left: 20%;
 }
+
 .codigo-limpo {
     top: 45%;
     left: 10%;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
 }
 .css3 {
     top: 50%;
     left: 30%;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
 }
 .html5 {
     top: 40%;
     left: 80%;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
 }
 .javascript {
     top: 10%;
     left: 60%;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
 }
 .acessibilidade {
     top: 30%;
@@ -164,4 +175,8 @@ main {
 }
 .blog .mais-recente a {
     color: #F26;
+}
+.foto-home{
+    height: 200px;
+    border-radius: 50%;
 }
